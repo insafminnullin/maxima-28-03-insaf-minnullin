@@ -1,0 +1,9 @@
+body {
+    background-color: blueviolet;
+font-size: 18px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.avatar {
+    width: 100px;
+    border-radius: 20px;
+}
