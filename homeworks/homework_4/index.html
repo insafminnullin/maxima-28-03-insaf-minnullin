@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Записная книжка</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
@@ -12,11 +12,20 @@
 
 </head>
 <body>
-    <header>
+    <header class="header">
         <h1>Записная книжка</h1>
     </header>
-    <main> 
-        <h3 class="capital">A</h3>
+    <main class="main">
+        <aside class="sidebar">
+            <h3 class="sidebar__links">Полезные ссылки:</h3>
+            <p class="sidebar__links__link"><a href="https://yandex.ru">Поисковики Yandex</a></p>
+            <p class="sidebar__links__link"><a href="https://google.com">Поисковики Google</a></p>
+            <p class="sidebar__links__link"><a href="https://mail.ru">Поисковики Mail</a></p>
+        </aside>
+        <div class="content"> 
+        <div class="capital">
+            <h3 class="capital__start-name">A</h3>
+        </div>
         <ul class="capital__nameA">
             <li>Алексеев</li>
             <li>Антонов</li>
@@ -30,25 +39,18 @@
             <li>Алексеев</li>
             <li>Антонов</li>
             <li>Андропов</li>
-            
         </ul>
-        <h3 class="capital">Б</h3>
+        <div class="capital">
+            <h3 class="capital__start-name">Б</h3>
+        </div>
         <ul class="capital__nameB">
             <li>Борисов</li>
             <li>Беляев</li>
             <li>Брамс</li>
             <li>Бродский</li>
             <li>Боголюбов</li>
-            
         </ul>
-    </main>
-    <nav>
-        <div class="sidebar">
-            <h3 class="links">Полезные ссылки:</h3>
-            <p class="link"><a href="https://yandex.ru">Поисковики Yandex</a></p>
-            <p class="link"><a href="https://google.com">Поисковики Google</a></p>
-            <p class="link"><a href="https://mail.ru">Поисковики Mail</a></p>
         </div>
-    </nav>
+    </main>
 </body>
 </html >

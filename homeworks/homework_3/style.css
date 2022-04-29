@@ -45,7 +45,7 @@ main {
     top: 40px;
     left: 195px;
 }
-.capitalA {
+.capital {
     background: blue;
     font-size: 15px;
     color: white;
@@ -56,16 +56,17 @@ main {
     left: 40px;
     font-family: ;
 }
-.nameA {
+.capital__nameA {
     position: relative;
     top: 40px;
     left: 40px;
     font-family: 'Times New Roman', Times, serif;
     line-height: 32.81px;
     font-family: 'Roboto', sans-serif;
-    line-height: 10px;
+    line-height: 30px;
+    list-style-type: none;
 }
-.capitalB {
+.capital {
     background: blue;
     font-size: 15px;
     color: white;
@@ -75,11 +76,12 @@ main {
     top: 40px;
     left: 40px;
 }
-.nameB {
+.capital__nameB {
     position: relative;
     top: 40px;
     left: 40px;
     font-family: Roboto;
     font-family: 'Roboto', sans-serif;
-    line-height: 10px;
+    line-height: 30px;
+    list-style-type: none;
 }
