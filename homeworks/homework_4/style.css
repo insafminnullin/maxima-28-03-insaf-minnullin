@@ -40,6 +40,15 @@ h1 {
      top: 90px;
      text-align: center;
 }
+.sidebar__div {
+    width: 2px;
+    height: 451px;
+    background-color: #C4C4C4;
+    margin-left: auto;
+    margin-right: 0;
+    position: relative;
+    top: -140px;
+}
  .sidebar__links {
      position: relative;
      margin: 0 auto;
