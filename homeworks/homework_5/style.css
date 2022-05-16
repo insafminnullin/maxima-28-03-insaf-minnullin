@@ -91,15 +91,34 @@ input::placeholder {
     font-size: 28px;
     line-height: 36px;
   }
-.form__checkbox {
-    margin-top: 16px;
-    margin-left: 45px;
+  .authorization__form__cheсkbox{
+      position: relative;
+      margin-left: 45px;
+      margin-top: 16px;
+  }
+.form__checkbox-input {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 2;
+}
+.form__checkbox-mark {
+    display: inline-block;
     width: 24px;
     height: 24px;
+    left: 0px;
+    top: 0px;
     background: #FFFFFF;
     border: 2px solid #787878;
-    box-sizing: border-box;
     border-radius: 7px;
+}
+.form__checkbox-input:checked + .form__checkbox-mark {
+    content: url(img/check.png);
+    background-size: 24px 24px;
+    
 }
 .form__checkbox-name {
     font-family: 'Roboto';
@@ -108,7 +127,8 @@ input::placeholder {
     font-size: 14px;
     line-height: 16px;
     color: #787878;
-    margin-left: 6px;
+    margin-left: 10px;
+    vertical-align: middle;
 }
 .form__button {
     margin: 0 auto;
