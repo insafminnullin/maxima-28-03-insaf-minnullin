@@ -55,6 +55,11 @@ body {
     font-weight: 700;
     font-size: 28px;
     line-height: 36px;
+    color: #787878;
+}
+.form__email[type = email]  {
+    padding-left: 13px;
+
 }
 .form__text-password {
     margin-left: 53px;
@@ -81,36 +86,36 @@ body {
     font-size: 28px;
     line-height: 36px;
 }
-input::placeholder {
+.form__password[type=password] {
     padding-left: 13px;
-    padding-top: 10px;
+}
+input::placeholder {
     border-top: 10px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
     line-height: 36px;
+    color: #CCCCCC;
   }
   .authorization__form__cheсkbox{
-      position: relative;
-      margin-left: 45px;
-      margin-top: 16px;
+    display: flex;
   }
 .form__checkbox-input {
     position: absolute;
     opacity: 0;
+    margin-top: 340px;
     width: 100%;
-    height: 100%;
+    height: 24px;
     top: 0%;
     left: 0%;
     z-index: 2;
 }
 .form__checkbox-mark {
-    display: inline-block;
+    margin-top: 16px;
+    margin-left: 45px;
     width: 24px;
     height: 24px;
-    left: 0px;
-    top: 0px;
     background: #FFFFFF;
     border: 2px solid #787878;
     border-radius: 7px;
@@ -118,17 +123,15 @@ input::placeholder {
 .form__checkbox-input:checked + .form__checkbox-mark {
     content: url(img/check.png);
     background-size: 24px 24px;
-    
 }
 .form__checkbox-name {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 16px;
     color: #787878;
     margin-left: 10px;
-    vertical-align: middle;
+    margin-top: 20px;
 }
 .form__button {
     margin: 0 auto;
