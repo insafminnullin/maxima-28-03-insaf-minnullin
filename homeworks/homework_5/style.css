@@ -9,6 +9,7 @@ h1, h2, h3 {
 }
 body {
     background : #1B2473;
+    min-width: 1400px;
 }
 .page-wrapper__authorization {
     width: 600px;
@@ -154,4 +155,9 @@ input::placeholder {
         width: 728px;
         height: 697px;
 }
+}
+@media screen and (max-width: 320px) {
+    .page-wrapper__authorization {
+        width: 320px;
+        height: 697px;
 }
