@@ -149,14 +149,3 @@ input::placeholder {
     line-height: 16px;
     color: #FFFFFF;
 }
-@media screen and (max-width: 768px) {
-    .page-wrapper__authorization {
-        width: 728px;
-        height: 697px;
-}
-}
-@media screen and (max-width: 320px) {
-    .page-wrapper__authorization {
-        width: 320px;
-        height: 697px;
-}
